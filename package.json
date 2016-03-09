@@ -1,0 +1,43 @@
+{
+  "name": "architect-chance",
+  "description": "Architect.js plugin to expose the chance library.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Todd Bashor",
+    "email": "todd@thestartersacademy.com"
+  },
+  "license": "MIT",
+  "main": "./plugin.js",
+  "keywords": [
+    "chance",
+    "random",
+    "generator",
+    "test",
+    "mersenne",
+    "name",
+    "address",
+    "dice",
+    "architect",
+    "plugin"
+  ],
+  "plugin": {
+    "consumes": [
+      "debug"
+    ],
+    "provides": [
+      "random"
+    ]
+  },
+  "dependencies": {
+    "chance": "1.0.1"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tbashor/architect-chance.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tbashor/architect-chance/issues"
+  },
+  "homepage": "https://github.com/tbashor/architect-chance#readme"
+}

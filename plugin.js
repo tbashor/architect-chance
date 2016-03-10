@@ -4,10 +4,13 @@ module.exports = function(options, imports, register) {
   var log = imports.debug('plugins:chance');
   log('start');
 
-  var chance = require('chance').Chance();
+  var Chance = require('chance');
 
   var api = {
-    random: chance
+    random: new Chance(),
+    Random: function(seed){
+      return new Chance(seed);
+    }
   };
 
   log('register');

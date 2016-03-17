@@ -1,7 +1,7 @@
 {
   "name": "architect-chance",
   "description": "Architect.js plugin to expose the chance library.",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "author": {
     "name": "Todd Bashor",
     "email": "todd@thestartersacademy.com"
@@ -25,7 +25,8 @@
       "debug"
     ],
     "provides": [
-      "random"
+      "random",
+      "Random"
     ]
   },
   "dependencies": {
